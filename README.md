@@ -29,6 +29,17 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 ## Tech Stack
 
-T3 Stack with the following: 
+T3 Stack with the following:
 
 - Database: PlanetScale
+
+## Commands
+
+```shell
+# run application locally
+npm run dev
+# spin up prima studio
+npx prisma studio
+# push local schema changes to prisma
+npx prisma db push
+```
