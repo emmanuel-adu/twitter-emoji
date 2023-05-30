@@ -42,6 +42,8 @@ npm run dev
 npx prisma studio
 # push local schema changes to prisma
 npx prisma db push
+npx prisma generate # update the generator with local changes
+
 ```
 
 ## Database
