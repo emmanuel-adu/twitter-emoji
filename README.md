@@ -43,3 +43,18 @@ npx prisma studio
 # push local schema changes to prisma
 npx prisma db push
 ```
+
+## Database
+
+Using mysql [Planetscale](https://planetscale.com/) as the database. Region is US-West-2.
+
+- planetscale also offers easy prisma integration.
+
+## Auth
+
+- For auth we are using [clerk](clerk.com)
+- nextJS clerk [guide](https://clerk.com/docs/nextjs/get-started-with-nextjs)
+
+## Logging
+
+- Logging enabled by [axiom](https://app.axiom.co/)
